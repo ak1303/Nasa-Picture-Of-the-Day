@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#picture{
+    width: 100%;
+    height: 60vh;
+    object-fit:fill;
+    
+}
+#title,h1{
+    align-self: flex-start;
+}
+.current-image-container{
+    display: flex;
+    gap:20px;
+    padding: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.container{
+    margin:20px;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+#search-history{
+    list-style: none;
+}
